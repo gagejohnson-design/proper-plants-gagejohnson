@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.plant-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.plant-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+}
+
+.cart {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+button {
+  margin: 4px;
+  padding: 4px 8px;
+}
